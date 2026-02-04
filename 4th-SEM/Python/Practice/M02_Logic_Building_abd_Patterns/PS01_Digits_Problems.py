@@ -6,3 +6,4 @@ while n>0:
     n//=10
 print(count)
 print(len(str(temp)))
+print()
