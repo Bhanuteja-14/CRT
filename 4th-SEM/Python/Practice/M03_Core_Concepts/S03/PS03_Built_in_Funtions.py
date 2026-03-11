@@ -25,8 +25,16 @@ list1=['a','b','c']
 list2=[1,2,3]
 zipped_list=list(zip(list1,list2))
 print(zipped_list)
-'''7)find second largest number using sorted() function-->sort the list and get the second last element'''
+'''7)find second largest number using sorted() function-->sort the list and get the second last element
 numbers=[10,25,5,30,15]
 sorted_numbers=sorted(numbers)
 second_largest=sorted_numbers[-2]
 print(second_largest)
+'''
+#find the maximium ele in list
+'''numbers=[10,25,5,30,15]
+max_number=numbers[0]
+for a in numbers:
+    if a>max_number:
+        max_number=a
+print(max_number)'''
